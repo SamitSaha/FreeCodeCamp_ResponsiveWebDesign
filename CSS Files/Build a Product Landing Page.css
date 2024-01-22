@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  #nav-bar {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  video {
+    max-width: 100%;
+  }
+  
+  #form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  #submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #555;
+  }
+  
+  /* Add your additional styling as needed */
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    #header {
+      padding: 10px;
+    }
+  
+    #nav-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link {
+      margin-bottom: 10px;
+    }
+  
+    #form {
+      max-width: 100%;
+    }
+  }
+  
+  /* Flexbox Usage Example */
+  .section-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .flex-item {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
